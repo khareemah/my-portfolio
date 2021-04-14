@@ -151,7 +151,7 @@ section.works-section {
 /* contact section start */
 section.contact-section {
   padding: 60px 15px;
-  min-height: 70vh;
+  min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
