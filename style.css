@@ -25,6 +25,7 @@ a {
   font-size: 40px;
   text-transform: capitalize;
   text-align: center;
+  padding-bottom: 12px;
 }
 .nav {
   text-align: center;
@@ -146,6 +147,53 @@ section.works-section {
 .project-info a {
   color: #e98b2c;
 }
+
+/* contact section start */
+section.contact-section {
+  padding: 60px 15px;
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.contact-text {
+  max-width: 700px;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+.contact-info-item {
+  margin-top: 30px;
+}
+.contact-info-item p {
+  font-size: 20px;
+  font-weight: 600;
+}
+.contact-info-item p a {
+  color: #e98b2c;
+}
+.social-links span {
+  margin-right: 4px;
+}
+.social-links span a {
+  height: 30px;
+  width: 30px;
+  border: 1px solid #c8c8c8;
+  font-size: 20px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #c8c8c8;
+  border-radius: 50%;
+  transition: 0.3s ease all;
+  margin: 0 3px;
+}
+.social-links span a:hover {
+  color: #e98b2c;
+  border-color: #e98b2c;
+}
+/* contact section end */
 @media screen and (max-width: 991px) {
   .nav a {
     font-size: 18px;
